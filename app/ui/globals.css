@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #e99401;
+    --black: #262626;
+    --white: #FFF;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.5;
+}
+
+[class*="heading"] {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 3rem 0;
+}
+
+[class*="heading-curso"] {
+    font-size: 3.2rem;
+    margin: 0;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
