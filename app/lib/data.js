@@ -1,4 +1,4 @@
-const apiURL = process.env.Api_URL; 
+const apiURL = process.env.API_URL; 
 
 export const getGuitars = async () => {
     const res = await fetch(`${apiURL}/guitarras?populate=imagen`);
